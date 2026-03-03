@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🚀 Core API Boilerplate
+# 🚀 Core API 
 **A state-of-the-art, production-ready starter template for building secure RESTful APIs.**
 
 [![Java](https://img.shields.io/badge/Java-25-orange.svg)](https://www.oracle.com/java/)
@@ -51,8 +51,8 @@ Create a `.env` file in the root directory and add your own values:
 ```env
 # Database Configuration
 DB_URL=jdbc:h2:mem:core_db
-DB_USERNAME=sa
-DB_PASSWORD=password
+DB_USERNAME=db_username
+DB_PASSWORD=db_password
 
 # JWT Configuration
 JWT_SECRET=YourSuperSecretAndLongJwtKeyThatNeedsToBeReplaced123!
